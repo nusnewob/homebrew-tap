@@ -12,5 +12,7 @@ cask "squirrel-conf" do
     strategy :github_latest
   end
 
+  depends_on macos: :sonoma
+
   app "SCT.app"
 end
